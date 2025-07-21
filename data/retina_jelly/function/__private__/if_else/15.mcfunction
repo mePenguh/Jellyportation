@@ -1,0 +1,6 @@
+data modify storage retina_jelly:data Surfaces.Top append value [360,300,180,480,300,300]
+data modify storage retina_jelly:data Surfaces.Bottom append value [360,120,180,480,120,300]
+data modify storage retina_jelly:data Surfaces.West append value [360,120,180,360,300,300]
+data modify storage retina_jelly:data Surfaces.East append value [480,120,180,480,300,300]
+data modify storage retina_jelly:data Surfaces.North append value [360,120,180,480,300,180]
+data modify storage retina_jelly:data Surfaces.South append value [360,120,300,480,300,300]

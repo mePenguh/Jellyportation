@@ -1,0 +1,6 @@
+execute if data storage retina_jelly:output {HitFace:"North"} run scoreboard players operation $targeted_Z retina.__variable__ += $expand_entity_hitboxes retina.__variable__
+execute if data storage retina_jelly:output {HitFace:"South"} run scoreboard players operation $targeted_Z retina.__variable__ -= $expand_entity_hitboxes retina.__variable__
+execute if data storage retina_jelly:output {HitFace:"East"} run scoreboard players operation $targeted_X retina.__variable__ -= $expand_entity_hitboxes retina.__variable__
+execute if data storage retina_jelly:output {HitFace:"West"} run scoreboard players operation $targeted_X retina.__variable__ += $expand_entity_hitboxes retina.__variable__
+execute if data storage retina_jelly:output {HitFace:"Top"} run scoreboard players operation $targeted_Y retina.__variable__ -= $expand_entity_hitboxes retina.__variable__
+execute if data storage retina_jelly:output {HitFace:"Bottom"} run scoreboard players operation $targeted_Y retina.__variable__ += $expand_entity_hitboxes retina.__variable__

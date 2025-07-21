@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/end_city_treasure"
+            }
+        }
+    },
+    "rewards": {
+        "function": "jellyportation:loot/get_target/end_city_treasure"
+    }
+}

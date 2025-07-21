@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/buried_treasure"
+            }
+        }
+    },
+    "rewards": {
+        "function": "jellyportation:loot/get_target/buried_treasure"
+    }
+}

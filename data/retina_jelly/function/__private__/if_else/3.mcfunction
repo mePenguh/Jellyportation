@@ -1,0 +1,2 @@
+execute align xyz if entity @e[type=!#retina_jelly:intangible,tag=!retina.ignore,tag=!retina.executing,dx=0,dy=0,dz=0] run function retina_jelly:check/entity/found
+scoreboard players set __if_else__ retina.__variable__ 1
