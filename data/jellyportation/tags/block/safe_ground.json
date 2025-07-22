@@ -664,6 +664,9 @@
     "minecraft:resin_bricks",
     "minecraft:chiseled_resin_bricks",
     "minecraft:resin_brick_slab",
-    "minecraft:resin_brick_stairs"
+    "minecraft:resin_brick_stairs",
+
+    "minecraft:test_block",
+    "minecraft:test_instance_block"
   ]
 }

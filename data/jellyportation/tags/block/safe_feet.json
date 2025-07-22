@@ -291,6 +291,14 @@
     "minecraft:pale_oak_wall_sign",
     "minecraft:pale_oak_hanging_sign",
     "minecraft:pale_oak_sapling",
-    "minecraft:resin_clump"
+    "minecraft:resin_clump",
+
+    "minecraft:leaf_litter",
+    "minecraft:wildflowers",
+    "minecraft:bush",
+    "minecraft:firefly_bush",
+    "minecraft:cactus_flower",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass"
   ]
 }
