@@ -13,4 +13,6 @@ execute if score @s jellyportation.anchor_charges matches 2 run setblock ~ ~ ~ r
 execute if score @s jellyportation.anchor_charges matches 3 run setblock ~ ~ ~ respawn_anchor[charges=2] replace
 execute if score @s jellyportation.anchor_charges matches 4 run setblock ~ ~ ~ respawn_anchor[charges=3] replace
 
+execute if score @s jellyportation.anchor_charges matches 1..4 run function jellyportation:effect/sound/anchor_deplete
+
 scoreboard players set @s jellyportation.anchor_charges 0
