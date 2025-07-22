@@ -14,6 +14,7 @@ scoreboard objectives add jellyportation.dimension_travel dummy
 scoreboard objectives add jellyportation.loot_chance dummy
 scoreboard objectives add jellyportation.id dummy
 scoreboard objectives add jellyportation.soundcheck_status dummy
+scoreboard objectives add jellyportation.free_slots dummy
 
 execute if score jellyportation_id_tracker jellyportation.id matches 0 run scoreboard players add jellyportation.id_tracker jellyportation.id 1
 

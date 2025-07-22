@@ -13,4 +13,4 @@ execute store result storage jellyportation:main Player.Loot.X int 1 run data ge
 execute store result storage jellyportation:main Player.Loot.Y int 1 run data get storage retina_jelly:output TargetedBlock[1]
 execute store result storage jellyportation:main Player.Loot.Z int 1 run data get storage retina_jelly:output TargetedBlock[2]
 
-function jellyportation:loot/append/chest with storage jellyportation:main Player.Loot
+function jellyportation:loot/append/chest/init with storage jellyportation:main Player.Loot
