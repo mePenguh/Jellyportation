@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_cat",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Blank Jelly",
+                "minecraft:item_model": "jellyportation:blank_jelly/chorus_fruit",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "blank_jelly": true
+                },
+                "!minecraft:jukebox_playable": {},
+                "minecraft:consumable": {
+                  "consume_seconds": 2.4,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "has_consume_particles": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Flavor:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " Chorus Fruit",
+                    "color": "#a654b1",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

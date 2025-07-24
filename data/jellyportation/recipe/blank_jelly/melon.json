@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "jellyportation:blank_jelly",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:honey_bottle",
+        "minecraft:bone_meal",
+        "minecraft:melon_slice"
+    ],
+    "result": {
+        "components": {
+            "minecraft:item_name": "Blank Jelly",
+            "minecraft:item_model": "jellyportation:blank_jelly/melon",
+            "minecraft:rarity": "common",
+            "minecraft:custom_data": {
+                "blank_jelly": true
+            },
+            "!minecraft:jukebox_playable": {},
+            "minecraft:consumable": {
+                "consume_seconds": 2.4,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
+            },
+            "minecraft:lore": [
+                {
+                    "text": "Flavor:",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " Melon",
+                    "color": "#98a02f",
+                    "italic": false
+                }
+            ]
+        },
+        "count": 1,
+        "id": "minecraft:music_disc_cat"
+    }
+}
